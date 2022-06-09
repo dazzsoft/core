@@ -4,6 +4,7 @@
  */
 
 export default function themePalette(theme) {
+    console.log(theme);
     return {
         mode: theme?.customization?.navType,
         common: {
